@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: #fafafa;
+    background-color: #e67d7d;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ header{
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    color:rgba(233, 23, 23, 0.85);
+    color:rgba(255, 245, 245, 0.85);
     transition: all 0.2s ease;
 }
 .logo a:hover{
@@ -39,13 +39,13 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: #555555;
+    color: #fffefe;
     transition: all 0.2s ease;
 
 
 }
 nav a:hover{
-    color:rgba(233, 23, 23, 0.85);
+    color:rgb(255, 3, 3);
     text-decoration: underline;
 }
 
@@ -193,6 +193,7 @@ nav a:hover{
 .category-container{
     /* background-color: blue; */
     margin-top: 40px;
+    margin-bottom: 50px;
     width: 100%;
     max-width: 1280px;
     display: flex;
